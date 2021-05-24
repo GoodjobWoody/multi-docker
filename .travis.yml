@@ -20,5 +20,5 @@ after_success:
   # push the built images to dockerhub 
   - docker push woodygoodjob/multi-client
   - docker push woodygoodjob/multi-nginx
-  - docker push woodygoodjob/multi-services
+  - docker push woodygoodjob/multi-server
   - docker push woodygoodjob/multi-worker
