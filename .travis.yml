@@ -6,8 +6,6 @@ services:
 before_install:
   - docker build -t woodygoodjob/react-test -f ./client/Dockerfile.dev .
 
-
-
 script:
   - docker run -e CI=true woodygoodjob/react-test npm test
 
